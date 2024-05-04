@@ -1,0 +1,38 @@
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.timer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.timer-button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
