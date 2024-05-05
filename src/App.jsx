@@ -1,8 +1,8 @@
 import './App.css';
-import Countdown from './1. Countdown Timer';
+import Accordion from './2. Accordion';
 
 function App() {
-  return <Countdown />;
+  return <Accordion />;
 }
 
 export default App;

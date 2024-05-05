@@ -1,0 +1,27 @@
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-toggle {
+  font-weight: bold;
+}
+
+.accordion-content {
+  padding: 10px;
+}
