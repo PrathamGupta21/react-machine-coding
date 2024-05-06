@@ -1,8 +1,8 @@
 import './App.css';
-import EmiCalculator from './3. EMI Calculator';
+import Modal from './4. Modal';
 
 function App() {
-  return <EmiCalculator />;
+  return <Modal />;
 }
 
 export default App;

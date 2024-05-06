@@ -1,0 +1,62 @@
+.show-offer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-btn {
+  height: 60px;
+  width: 180px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  background: radial-gradient(white, rgba(147, 146, 146, 0.5) 50%);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.modal-content {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  padding: 16px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 80px;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.accept-btn {
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
