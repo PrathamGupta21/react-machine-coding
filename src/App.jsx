@@ -1,8 +1,8 @@
 import './App.css';
-import Modal from './4. Modal';
+import UndoableCounter from './5. Undoable Timer';
 
 function App() {
-  return <Modal />;
+  return <UndoableCounter />;
 }
 
 export default App;
