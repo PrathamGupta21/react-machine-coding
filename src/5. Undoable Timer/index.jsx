@@ -28,9 +28,7 @@ function UndoableCounter() {
       const copyHist = [...history];
       const firstItem = copyHist.shift();
       setHistory(copyHist);
-
       setValue(firstItem.prev);
-
       const copyRedoList = [...redoList];
       copyRedoList.push(firstItem);
       setRedoList(copyRedoList);
