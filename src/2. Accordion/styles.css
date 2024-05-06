@@ -5,6 +5,7 @@
 
 .accordion-item {
   border-bottom: 1px solid #ddd;
+  width: 100vh;
 }
 
 .accordion-item:last-child {

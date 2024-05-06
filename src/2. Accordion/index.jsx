@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AccordionItem from './AccordionItem';
 import questions from './data';
+import './styles.css';
 
 const Accordion = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -10,17 +11,20 @@ const Accordion = () => {
   };
 
   return (
-    <div className='accordion'>
-      {questions.map((item, index) => (
-        <AccordionItem
-          key={index}
-          title={item.title}
-          content={item.info}
-          isOpen={openIndex === index}
-          onToggle={() => handleToggle(index)}
-        />
-      ))}
-    </div>
+    <>
+      <h1>Accordion</h1>
+      <div className='accordion'>
+        {questions.map((item, index) => (
+          <AccordionItem
+            key={index}
+            title={item.title}
+            content={item.info}
+            isOpen={openIndex === index}
+            onToggle={() => handleToggle(index)}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 

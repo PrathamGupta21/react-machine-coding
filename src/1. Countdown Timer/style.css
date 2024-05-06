@@ -12,6 +12,7 @@
   font-size: 20px;
   margin: 20px;
   text-align: center;
+  background-color: beige;
 }
 
 .timer-box {
@@ -29,6 +30,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 5px;
+  background-color: aliceblue;
 }
 
 input::-webkit-outer-spin-button,

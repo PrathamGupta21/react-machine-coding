@@ -1,5 +1,3 @@
-import './styles.css';
-
 const AccordionItem = ({ title, content, isOpen, onToggle }) => {
   return (
     <div className='accordion-item'>
