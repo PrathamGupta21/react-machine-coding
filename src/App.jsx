@@ -1,8 +1,8 @@
 import './App.css';
-import Accordion from './2. Accordion';
+import EmiCalculator from './3. EMI Calculator';
 
 function App() {
-  return <Accordion />;
+  return <EmiCalculator />;
 }
 
 export default App;
