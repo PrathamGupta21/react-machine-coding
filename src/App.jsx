@@ -1,8 +1,8 @@
 import './App.css';
-import MultiStepForm from './7. Multi Step Form';
+import Carousel from './8. Image Carousel';
 
 function App() {
-  return <MultiStepForm />;
+  return <Carousel />;
 }
 
 export default App;
