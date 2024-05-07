@@ -1,8 +1,8 @@
 import './App.css';
-import Otp from './9. OTP';
+import Calculator from './10. Calculator';
 
 function App() {
-  return <Otp />;
+  return <Calculator />;
 }
 
 export default App;

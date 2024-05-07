@@ -1,0 +1,25 @@
+.container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50vh;
+  height: 50vh;
+  grid-gap: 16px;
+}
+
+.cell {
+  background-color: lightseagreen;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+}
