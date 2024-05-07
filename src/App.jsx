@@ -1,8 +1,8 @@
 import './App.css';
-import Carousel from './8. Image Carousel';
+import Otp from './9. OTP';
 
 function App() {
-  return <Carousel />;
+  return <Otp />;
 }
 
 export default App;
