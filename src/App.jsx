@@ -1,8 +1,8 @@
 import './App.css';
-import AutoSuggest from './6. Auto Suggestion';
+import MultiStepForm from './7. Multi Step Form';
 
 function App() {
-  return <AutoSuggest />;
+  return <MultiStepForm />;
 }
 
 export default App;
