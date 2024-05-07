@@ -1,8 +1,8 @@
 import './App.css';
-import UndoableCounter from './5. Undoable Timer';
+import AutoSuggest from './6. Auto Suggestion';
 
 function App() {
-  return <UndoableCounter />;
+  return <AutoSuggest />;
 }
 
 export default App;
