@@ -1,8 +1,8 @@
 import './App.css';
-import TaskManager from './14. DnD Task Manager';
+import TicTacToe from './15. Tic Tac Toe';
 
 function App() {
-  return <TaskManager />;
+  return <TicTacToe />;
 }
 
 export default App;
