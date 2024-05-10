@@ -1,8 +1,8 @@
 import './App.css';
-import StarRating from './11. Star Rating';
+import MemoryGame from './12. Memory Game';
 
 function App() {
-  return <StarRating />;
+  return <MemoryGame />;
 }
 
 export default App;
