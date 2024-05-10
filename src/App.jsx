@@ -1,8 +1,8 @@
 import './App.css';
-import Calculator from './10. Calculator';
+import StarRating from './11. Star Rating';
 
 function App() {
-  return <Calculator />;
+  return <StarRating />;
 }
 
 export default App;
