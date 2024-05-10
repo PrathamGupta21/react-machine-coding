@@ -1,8 +1,8 @@
 import './App.css';
-import TicTacToe from './15. Tic Tac Toe';
+import InfiniteScroll from './16. Infinite Score';
 
 function App() {
-  return <TicTacToe />;
+  return <InfiniteScroll />;
 }
 
 export default App;
