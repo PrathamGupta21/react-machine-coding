@@ -1,8 +1,8 @@
 import './App.css';
-import MemoryGame from './12. Memory Game';
+import BarChart from './13. Bar Chart';
 
 function App() {
-  return <MemoryGame />;
+  return <BarChart />;
 }
 
 export default App;
