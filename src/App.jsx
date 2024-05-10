@@ -1,8 +1,8 @@
 import './App.css';
-import BarChart from './13. Bar Chart';
+import TaskManager from './14. DnD Task Manager';
 
 function App() {
-  return <BarChart />;
+  return <TaskManager />;
 }
 
 export default App;
