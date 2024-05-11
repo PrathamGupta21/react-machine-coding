@@ -1,5 +1,5 @@
 import './App.css';
-import InfiniteScroll from './16. Infinite Score';
+import InfiniteScroll from './16. Infinite Scroll';
 
 function App() {
   return <InfiniteScroll />;
